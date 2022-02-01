@@ -1,0 +1,89 @@
+1.  Request Component
+
+	Method, URL, Headers, Content
+	
+	Method (Operation):
+		GET
+		POST
+		PUT
+		DELETE
+		
+	URL:
+		Uniquely identify resource
+		
+	HEADERS:
+		Meta data of Request
+		
+	CONTENT:
+		Query parameters
+		Body
+***********************************************************************
+
+2.  Response Component
+
+	status code , Header, content
+
+	Status Code:
+		success 2xx
+		client side errot 4xx
+		server side error 5xx
+		
+	HEADERS:
+		Meta Data Response
+		
+	CONTENT:
+		Response Body
+		
+***********************************************************************
+
+POSTMAN
+
+	1. Collection:
+		Collection is used to have all collected api at one place kind of sorting and storing files in a single folder
+
+***********************************************************************
+	
+	1. Resource parameter:
+		id, name, group, address eg. /id
+		
+	2. Non Resource:  
+		which ever can be sorter and filterd eg. /sort?price=lowtohigh
+		
+*************************************************************************
+
+URL Navigation for Sub objects
+
+	1. api/colleges/10
+	2. api/colleges/10/students/10 		this url is a sub object of college
+	
+	a. api/colleges/10/students/10					#make it simple
+	b. api/colleges/10/students/10/courses  		#not advisable more complex
+	
+	
+*************************************************************************
+USES OF DIFFERENT METHOD
+
+1. GET:
+		to get the data
+2. POST:
+		to create the resource
+3. PUT:
+		to update full data of the resource
+4. DELETE:
+		to delete the resource
+5. PATCH:
+		to update partial data
+
+*************************************************************************
+Difference between collection and individual item
+
+1.	/cources				Collection
+2. 	/cources/1				individual item
+3. 	/cources/1/students/	Collection
+
+*************************************************************************
+
+		
+
+	
+		
